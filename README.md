@@ -32,7 +32,7 @@ Neon theme is a vibrant green theme for Emacs, designed to be easy on the eyes. 
 To enable the theme, add the following to your Emacs configuration:
 
 ```elisp
-(load-theme 'neon-green t)
+(load-theme 'neon t)
 ```
 
 ## Customization
