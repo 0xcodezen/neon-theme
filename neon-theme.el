@@ -1,6 +1,6 @@
 ;;; neon-theme.el --- A vibrant green theme for Emacs -*- lexical-binding: t -*-
-;; Copyright (C) 2024 x0codezen
-;; Author: x0codezen
+;; Copyright (C) 2024 0xcodezen
+;; Author: 0xcodezen
 ;; Version: 1.1
 ;; Package-Requires: ((emacs "29"))
 ;; Keywords: themes
