@@ -40,6 +40,3 @@ You can customize the theme by modifying the color variables in the `neon-theme.
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Contributing
-Contributions are welcome! Please feel free to submit issues or pull requests on the [GitHub repository](https://github.com/0xsbNick/neon-green-theme).
