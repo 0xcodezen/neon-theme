@@ -16,7 +16,6 @@
 (let* ((class '((class color) (min-colors 89)))
        (fg             "#5EDC1F")  ; foreground
        (bg             "#000000")  ; background
-       (error-red      "#FF6F6F")
        (warning-yellow "#FFD700")
        (dark-gray      "#1A1A1D")
        (purple         "#7E5CAD")
@@ -40,7 +39,7 @@
        (white          "#ffffff"))
 
   (custom-theme-set-faces
-   'neon-green
+   'neon
    `(default              ((,class (:foreground ,fg :background ,bg))))
    `(fringe               ((,class (:background ,bg))))
    `(cursor               ((,class (:foreground ,bg :background ,error-red))))
@@ -75,7 +74,7 @@
    `(font-lock-preprocessor-face  ((,class (,class :foreground ,mint-green))))
    `(font-lock-warning-face       ((,class (:foreground ,bright-red))))
 
-    ;;indent-guide
+   ;;indent-guide
    `(indent-guide-face            ((,class (:foreground ,purple))))
 
    ;; rainbow delimiters
@@ -88,7 +87,7 @@
    `(rainbow-delimiters-unmatched-face  ((,class :foreground ,bright-red)))
 
 
-    ;;Org
+   ;;Org
    `(org-level-1                ((,class (:extend nil :background ,deep-blue :foreground ,fg :weight bold :height 1.3 ))))
    `(org-level-2                ((,class (:extend nil :background ,deep-blue :foreground ,light-red :weight bold))))
    `(org-level-3                ((,class (:extend nil :background ,deep-blue :foreground ,warning-yellow :weight bold))))
@@ -131,7 +130,7 @@
    `(company-scrollbar-bg          ((,class (:background ,dark-gray2))))
    `(company-preview-common        ((,class (:foreground ,fg :background ,dark-gray2))))
 
-    ;;flycheck faces
+   ;;flycheck faces
    `(flycheck-error               ((,class (:foreground ,bright-red :underline t))))
    `(flycheck-warning             ((,class :foreground ,pale-yellow :underline t)))
    `(flycheck-info                ((,class :foreground ,fg :underline t)))
