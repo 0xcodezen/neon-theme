@@ -134,7 +134,6 @@
    `(flycheck-error               ((,class (:foreground ,bright-red :underline t))))
    `(flycheck-warning             ((,class :foreground ,pale-yellow :underline t)))
    `(flycheck-info                ((,class :foreground ,fg :underline t)))
-
    `(flycheck-fringe-error        ((,class (:foreground ,bright-red))))
    `(flycheck-fringe-warning      ((,class (:foreground ,pale-yellow))))
    `(flycheck-fringe-info         ((,class (:foreground ,fg))))
